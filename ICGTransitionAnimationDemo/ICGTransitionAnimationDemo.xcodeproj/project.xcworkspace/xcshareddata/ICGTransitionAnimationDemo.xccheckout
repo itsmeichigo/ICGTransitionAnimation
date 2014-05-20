@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>50B3C892-D372-433C-93EB-9DED40F6618E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ICGTransitionAnimationDemo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C07D29EA-F54C-4A79-83C0-88CA8A3642C6</key>
+		<string>https://github.com/itsmeichigo/ICGTransitionAnimation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ICGTransitionAnimationDemo/ICGTransitionAnimationDemo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C07D29EA-F54C-4A79-83C0-88CA8A3642C6</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/itsmeichigo/ICGTransitionAnimation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C07D29EA-F54C-4A79-83C0-88CA8A3642C6</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C07D29EA-F54C-4A79-83C0-88CA8A3642C6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ICGTransitionAnimation</string>
+		</dict>
+	</array>
+</dict>
+</plist>

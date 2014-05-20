@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DEC242D4192B67FA0012E7E9 /* ICGBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC242C7192B67FA0012E7E9 /* ICGBaseAnimation.m */; };
+		DEC242D5192B67FA0012E7E9 /* ICGFlipAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC242C9192B67FA0012E7E9 /* ICGFlipAnimation.m */; };
+		DEC242D6192B67FA0012E7E9 /* ICGLayerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC242CB192B67FA0012E7E9 /* ICGLayerAnimation.m */; };
+		DEC242D7192B67FA0012E7E9 /* ICGScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC242CD192B67FA0012E7E9 /* ICGScaleAnimation.m */; };
+		DEC242D8192B67FA0012E7E9 /* ICGSlideAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC242CF192B67FA0012E7E9 /* ICGSlideAnimation.m */; };
+		DEC242D9192B67FA0012E7E9 /* ICGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC242D1192B67FA0012E7E9 /* ICGNavigationController.m */; };
+		DEC242DA192B67FA0012E7E9 /* ICGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC242D3192B67FA0012E7E9 /* ICGViewController.m */; };
 		DEEE73CD1929B1A400200D45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEE73CC1929B1A400200D45 /* Foundation.framework */; };
 		DEEE73CF1929B1A400200D45 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEE73CE1929B1A400200D45 /* CoreGraphics.framework */; };
 		DEEE73D11929B1A400200D45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEE73D01929B1A400200D45 /* UIKit.framework */; };
@@ -19,13 +26,6 @@
 		DEEE73E81929B1A400200D45 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEEE73D01929B1A400200D45 /* UIKit.framework */; };
 		DEEE73F01929B1A400200D45 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEEE73EE1929B1A400200D45 /* InfoPlist.strings */; };
 		DEEE73F21929B1A400200D45 /* ICGTransitionAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE73F11929B1A400200D45 /* ICGTransitionAnimationDemoTests.m */; };
-		DEEE740F1929B1C300200D45 /* ICGBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE73FE1929B1C300200D45 /* ICGBaseAnimation.m */; };
-		DEEE74101929B1C300200D45 /* ICGFlipAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE74001929B1C300200D45 /* ICGFlipAnimation.m */; };
-		DEEE74111929B1C300200D45 /* ICGLayerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE74021929B1C300200D45 /* ICGLayerAnimation.m */; };
-		DEEE74121929B1C300200D45 /* ICGScaleAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE74041929B1C300200D45 /* ICGScaleAnimation.m */; };
-		DEEE74131929B1C300200D45 /* ICGSlideAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE74061929B1C300200D45 /* ICGSlideAnimation.m */; };
-		DEEE74151929B1C300200D45 /* ICGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE740C1929B1C300200D45 /* ICGNavigationController.m */; };
-		DEEE74161929B1C300200D45 /* ICGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE740E1929B1C300200D45 /* ICGViewController.m */; };
 		DEEE741B1929B28000200D45 /* 130930-IPHONE5-IOS7-D.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEEE741A1929B28000200D45 /* 130930-IPHONE5-IOS7-D.jpg */; };
 		DEEE74251929B29300200D45 /* ICGMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEE741D1929B29300200D45 /* ICGMainViewController.m */; };
 		DEEE74261929B29300200D45 /* ICGMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEEE741E1929B29300200D45 /* ICGMainViewController.xib */; };
@@ -46,6 +46,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DEC242C6192B67FA0012E7E9 /* ICGBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGBaseAnimation.h; sourceTree = "<group>"; };
+		DEC242C7192B67FA0012E7E9 /* ICGBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGBaseAnimation.m; sourceTree = "<group>"; };
+		DEC242C8192B67FA0012E7E9 /* ICGFlipAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGFlipAnimation.h; sourceTree = "<group>"; };
+		DEC242C9192B67FA0012E7E9 /* ICGFlipAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGFlipAnimation.m; sourceTree = "<group>"; };
+		DEC242CA192B67FA0012E7E9 /* ICGLayerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGLayerAnimation.h; sourceTree = "<group>"; };
+		DEC242CB192B67FA0012E7E9 /* ICGLayerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGLayerAnimation.m; sourceTree = "<group>"; };
+		DEC242CC192B67FA0012E7E9 /* ICGScaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGScaleAnimation.h; sourceTree = "<group>"; };
+		DEC242CD192B67FA0012E7E9 /* ICGScaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGScaleAnimation.m; sourceTree = "<group>"; };
+		DEC242CE192B67FA0012E7E9 /* ICGSlideAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGSlideAnimation.h; sourceTree = "<group>"; };
+		DEC242CF192B67FA0012E7E9 /* ICGSlideAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGSlideAnimation.m; sourceTree = "<group>"; };
+		DEC242D0192B67FA0012E7E9 /* ICGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGNavigationController.h; sourceTree = "<group>"; };
+		DEC242D1192B67FA0012E7E9 /* ICGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGNavigationController.m; sourceTree = "<group>"; };
+		DEC242D2192B67FA0012E7E9 /* ICGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGViewController.h; sourceTree = "<group>"; };
+		DEC242D3192B67FA0012E7E9 /* ICGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGViewController.m; sourceTree = "<group>"; };
 		DEEE73C91929B1A400200D45 /* ICGTransitionAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICGTransitionAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEEE73CC1929B1A400200D45 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		DEEE73CE1929B1A400200D45 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,20 +76,6 @@
 		DEEE73ED1929B1A400200D45 /* ICGTransitionAnimationDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ICGTransitionAnimationDemoTests-Info.plist"; sourceTree = "<group>"; };
 		DEEE73EF1929B1A400200D45 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DEEE73F11929B1A400200D45 /* ICGTransitionAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ICGTransitionAnimationDemoTests.m; sourceTree = "<group>"; };
-		DEEE73FD1929B1C300200D45 /* ICGBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGBaseAnimation.h; sourceTree = "<group>"; };
-		DEEE73FE1929B1C300200D45 /* ICGBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGBaseAnimation.m; sourceTree = "<group>"; };
-		DEEE73FF1929B1C300200D45 /* ICGFlipAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGFlipAnimation.h; sourceTree = "<group>"; };
-		DEEE74001929B1C300200D45 /* ICGFlipAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGFlipAnimation.m; sourceTree = "<group>"; };
-		DEEE74011929B1C300200D45 /* ICGLayerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGLayerAnimation.h; sourceTree = "<group>"; };
-		DEEE74021929B1C300200D45 /* ICGLayerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGLayerAnimation.m; sourceTree = "<group>"; };
-		DEEE74031929B1C300200D45 /* ICGScaleAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGScaleAnimation.h; sourceTree = "<group>"; };
-		DEEE74041929B1C300200D45 /* ICGScaleAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGScaleAnimation.m; sourceTree = "<group>"; };
-		DEEE74051929B1C300200D45 /* ICGSlideAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGSlideAnimation.h; sourceTree = "<group>"; };
-		DEEE74061929B1C300200D45 /* ICGSlideAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGSlideAnimation.m; sourceTree = "<group>"; };
-		DEEE740B1929B1C300200D45 /* ICGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGNavigationController.h; sourceTree = "<group>"; };
-		DEEE740C1929B1C300200D45 /* ICGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGNavigationController.m; sourceTree = "<group>"; };
-		DEEE740D1929B1C300200D45 /* ICGViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGViewController.h; sourceTree = "<group>"; };
-		DEEE740E1929B1C300200D45 /* ICGViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGViewController.m; sourceTree = "<group>"; };
 		DEEE741A1929B28000200D45 /* 130930-IPHONE5-IOS7-D.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "130930-IPHONE5-IOS7-D.jpg"; sourceTree = "<group>"; };
 		DEEE741C1929B29300200D45 /* ICGMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ICGMainViewController.h; sourceTree = "<group>"; };
 		DEEE741D1929B29300200D45 /* ICGMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ICGMainViewController.m; sourceTree = "<group>"; };
@@ -112,6 +112,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DEC242C4192B67FA0012E7E9 /* ICGTransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				DEC242C5192B67FA0012E7E9 /* AnimationControllers */,
+				DEC242D0192B67FA0012E7E9 /* ICGNavigationController.h */,
+				DEC242D1192B67FA0012E7E9 /* ICGNavigationController.m */,
+				DEC242D2192B67FA0012E7E9 /* ICGViewController.h */,
+				DEC242D3192B67FA0012E7E9 /* ICGViewController.m */,
+			);
+			name = ICGTransitionAnimation;
+			path = ../../ICGTransitionAnimation;
+			sourceTree = "<group>";
+		};
+		DEC242C5192B67FA0012E7E9 /* AnimationControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DEC242C6192B67FA0012E7E9 /* ICGBaseAnimation.h */,
+				DEC242C7192B67FA0012E7E9 /* ICGBaseAnimation.m */,
+				DEC242C8192B67FA0012E7E9 /* ICGFlipAnimation.h */,
+				DEC242C9192B67FA0012E7E9 /* ICGFlipAnimation.m */,
+				DEC242CA192B67FA0012E7E9 /* ICGLayerAnimation.h */,
+				DEC242CB192B67FA0012E7E9 /* ICGLayerAnimation.m */,
+				DEC242CC192B67FA0012E7E9 /* ICGScaleAnimation.h */,
+				DEC242CD192B67FA0012E7E9 /* ICGScaleAnimation.m */,
+				DEC242CE192B67FA0012E7E9 /* ICGSlideAnimation.h */,
+				DEC242CF192B67FA0012E7E9 /* ICGSlideAnimation.m */,
+			);
+			path = AnimationControllers;
+			sourceTree = "<group>";
+		};
 		DEEE73C01929B1A400200D45 = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +186,7 @@
 				DEEE74221929B29300200D45 /* ICGPushedViewController.h */,
 				DEEE74231929B29300200D45 /* ICGPushedViewController.m */,
 				DEEE74241929B29300200D45 /* ICGPushedViewController.xib */,
-				DEEE73FB1929B1C300200D45 /* Source */,
+				DEC242C4192B67FA0012E7E9 /* ICGTransitionAnimation */,
 				DEEE73DE1929B1A400200D45 /* Images.xcassets */,
 				DEEE73D31929B1A400200D45 /* Supporting Files */,
 			);
@@ -191,36 +221,6 @@
 				DEEE73EE1929B1A400200D45 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DEEE73FB1929B1C300200D45 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				DEEE73FC1929B1C300200D45 /* AnimationControllers */,
-				DEEE740B1929B1C300200D45 /* ICGNavigationController.h */,
-				DEEE740C1929B1C300200D45 /* ICGNavigationController.m */,
-				DEEE740D1929B1C300200D45 /* ICGViewController.h */,
-				DEEE740E1929B1C300200D45 /* ICGViewController.m */,
-			);
-			name = Source;
-			path = ../../Source;
-			sourceTree = "<group>";
-		};
-		DEEE73FC1929B1C300200D45 /* AnimationControllers */ = {
-			isa = PBXGroup;
-			children = (
-				DEEE73FD1929B1C300200D45 /* ICGBaseAnimation.h */,
-				DEEE73FE1929B1C300200D45 /* ICGBaseAnimation.m */,
-				DEEE73FF1929B1C300200D45 /* ICGFlipAnimation.h */,
-				DEEE74001929B1C300200D45 /* ICGFlipAnimation.m */,
-				DEEE74011929B1C300200D45 /* ICGLayerAnimation.h */,
-				DEEE74021929B1C300200D45 /* ICGLayerAnimation.m */,
-				DEEE74031929B1C300200D45 /* ICGScaleAnimation.h */,
-				DEEE74041929B1C300200D45 /* ICGScaleAnimation.m */,
-				DEEE74051929B1C300200D45 /* ICGSlideAnimation.h */,
-				DEEE74061929B1C300200D45 /* ICGSlideAnimation.m */,
-			);
-			path = AnimationControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,18 +323,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEC242D9192B67FA0012E7E9 /* ICGNavigationController.m in Sources */,
 				DEEE73DD1929B1A400200D45 /* ICGAppDelegate.m in Sources */,
-				DEEE74161929B1C300200D45 /* ICGViewController.m in Sources */,
-				DEEE74111929B1C300200D45 /* ICGLayerAnimation.m in Sources */,
 				DEEE74251929B29300200D45 /* ICGMainViewController.m in Sources */,
+				DEC242D8192B67FA0012E7E9 /* ICGSlideAnimation.m in Sources */,
+				DEC242D5192B67FA0012E7E9 /* ICGFlipAnimation.m in Sources */,
+				DEC242D7192B67FA0012E7E9 /* ICGScaleAnimation.m in Sources */,
 				DEEE73D91929B1A400200D45 /* main.m in Sources */,
-				DEEE74121929B1C300200D45 /* ICGScaleAnimation.m in Sources */,
-				DEEE74131929B1C300200D45 /* ICGSlideAnimation.m in Sources */,
 				DEEE74271929B29300200D45 /* ICGModalViewController.m in Sources */,
+				DEC242DA192B67FA0012E7E9 /* ICGViewController.m in Sources */,
 				DEEE74291929B29300200D45 /* ICGPushedViewController.m in Sources */,
-				DEEE74151929B1C300200D45 /* ICGNavigationController.m in Sources */,
-				DEEE740F1929B1C300200D45 /* ICGBaseAnimation.m in Sources */,
-				DEEE74101929B1C300200D45 /* ICGFlipAnimation.m in Sources */,
+				DEC242D6192B67FA0012E7E9 /* ICGLayerAnimation.m in Sources */,
+				DEC242D4192B67FA0012E7E9 /* ICGBaseAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
