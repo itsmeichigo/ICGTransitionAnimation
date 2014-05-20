@@ -6,13 +6,6 @@ ICGTransitionAnimation is a library to customize transition animation in iOS 7.
 ![Screenshot](https://raw.githubusercontent.com/itsmeichigo/ICGTransitionAnimation/master/Screenshot.png "ICGTransitionAnimation screenshot")
 
 ## Getting started
-### The Pod way
-
-Just add the following line in your podfile
-
-	pod 'ICGTransitionAnimation'
-
-### The old school way
 
 Drag and drop the folder named `Source` in your project and you are done.
 
@@ -68,15 +61,6 @@ Drag and drop the folder named `Source` in your project and you are done.
 By default, there are serveral available animation controllers provided in the library for basic transition customization. You are however encouraged to create your own, creative transition style by subclassing `ICGBaseAnimation`. The idea is pretty simple - you just need to override the mandatory method `animateTransition: fromView: toView:`. If you wish to add interactive transition too, be sure to override `setInteractionEnabledForOperation:`.
 
 For sample code, check out the implementation of `ICGSlideAnimation` provided in the library, which supports both custom animation and interaction transition.
-
-### Sample project
-
-The sample project show how to present and dismiss a popin with different transition styles.
-
-If you are using CocoaPods in version 0.29 or better, you can quickly run the demo project with the
-following command line :
-
-	pod try ICGTransitionAnimation
 
 ## Requirements
 
