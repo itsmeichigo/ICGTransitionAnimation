@@ -7,7 +7,7 @@ ICGTransitionAnimation is a library to customize transition animation in iOS 7.
 
 ## Getting started
 
-Drag and drop the folder named `Source` in your project and you are done.
+Drag and drop the folder named `ICGTransitionAnimation` in your project and you are done.
 
 ### Basic usage
 
