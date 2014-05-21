@@ -87,12 +87,14 @@
     switch (self.pickerView.tag + 100) {
         case 100:
             self.selectedNavigationAnimation = row;
+            self.selectedNavigationType = 0;
             break;
         case 101:
             self.selectedNavigationType = row;
             break;
         case 102:
             self.selectedModalAnimation = row;
+            self.selectedModalType = 0;
             break;
         case 103:
             self.selectedModalType = row;
