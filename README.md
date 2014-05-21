@@ -65,7 +65,7 @@ For sample code, check out the implementation of `ICGSlideAnimation` provided in
 ## Requirements
 
 ICGTransitionAnimation requires Xcode 5 as it uses UIKit Dynamics and motion effects. The library
-supports iOS 7.0 and later.
+can be added to projects targetting iOS 6 as an enhancement to the app when running in iOS 7. This means the library will not cause crash in iOS 6 but only supports desirable functions if deployed in iOS 7.
 
 ### ARC
 
