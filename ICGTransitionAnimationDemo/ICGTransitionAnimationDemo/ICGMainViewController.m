@@ -250,7 +250,10 @@
         fancyViewController.animationController.type = self.selectedModalType;
     }
     
-    viewController.transitioningDelegate = self.transitioningDelegate;  // this is important for the animation to work
+    if ([self respondsToSelector:@selector(setTransitioningDelegate:)]){
+        viewController.transitioningDelegate = self.transitioningDelegate;  // this is important for the animation to work
+    }
+    
     [self.navigationController presentViewController:viewController animated:YES completion:nil];
 
 

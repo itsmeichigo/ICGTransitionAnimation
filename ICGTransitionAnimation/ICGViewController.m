@@ -20,7 +20,10 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.transitioningDelegate = self;
+        if ([self respondsToSelector:@selector(setTransitioningDelegate:)]){
+            self.transitioningDelegate = self;
+        }
+        
     }
     return self;
 }
