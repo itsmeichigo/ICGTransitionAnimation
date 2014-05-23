@@ -50,8 +50,7 @@
     self.animationController.fromViewController = presenting;
     self.animationController.toViewController = presented;
     if (self.interactionEnabled){
-        [self.animationController setInteractionEnabledForOperation:ICGTransitionOperationPresent];
-        [self.animationController setInteractionEnabledForOperation:ICGTransitionOperationDismiss];
+        [self.animationController setInteractionEnabled];
     }
     self.animationController.reverse = NO;
     self.animationController.modalTransition = YES;

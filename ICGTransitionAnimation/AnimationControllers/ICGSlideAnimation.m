@@ -10,7 +10,6 @@
 #import "ICGNavigationController.h"
 
 @interface ICGSlideAnimation()
-@property (assign, nonatomic) ICGTransitionOperation operation;
 @property (assign, nonatomic) BOOL shouldCompleteTransition;
 @end
 
@@ -90,9 +89,8 @@
     
 }
 
-- (void)setInteractionEnabledForOperation:(ICGTransitionOperation)operation
+- (void)setInteractionEnabled
 {
-    self.operation = operation;
     self.gesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handleGesture:)];
     [self.toViewController.view addGestureRecognizer:self.gesture];
 }
@@ -116,21 +114,18 @@
             BOOL bottomToTopSwipe = translation.y < 0;
             
             // perform the required navigation operation ...
-            
-            if ((self.operation == ICGTransitionOperationPop) ||
-                (self.operation == ICGTransitionOperationDismiss)) {
-                if (horizontalPan){
-                    if ((self.type == ICGSlideAnimationFromLeft && rightToLeftSwipe) ||
-                        (self.type == ICGSlideAnimationFromRight && leftToRightSwipe)){
-                        [self dismissViewController];
-                    }
-                } else {
-                    if ((self.type == ICGSlideAnimationFromTop && bottomToTopSwipe) ||
-                        (self.type == ICGSlideAnimationFromBottom && topToBottomSwipe)){
-                        [self dismissViewController];
-                    }
+            if (horizontalPan){
+                if ((self.type == ICGSlideAnimationFromLeft && rightToLeftSwipe) ||
+                    (self.type == ICGSlideAnimationFromRight && leftToRightSwipe)){
+                    [self dismissViewController];
+                }
+            } else {
+                if ((self.type == ICGSlideAnimationFromTop && bottomToTopSwipe) ||
+                    (self.type == ICGSlideAnimationFromBottom && topToBottomSwipe)){
+                    [self dismissViewController];
                 }
             }
+            
             break;
         }
         case UIGestureRecognizerStateChanged: {
@@ -177,10 +172,10 @@
 
 - (void)dismissViewController
 {
-    if (self.operation == ICGTransitionOperationDismiss){
-        [self.fromViewController dismissViewControllerAnimated:YES completion:nil];
+    if (self.modalTransition){
+        [self.toViewController dismissViewControllerAnimated:YES completion:nil];
     } else {
-        [self.fromViewController.navigationController popViewControllerAnimated:YES];
+        [self.toViewController.navigationController popViewControllerAnimated:YES];
     }
 }
 

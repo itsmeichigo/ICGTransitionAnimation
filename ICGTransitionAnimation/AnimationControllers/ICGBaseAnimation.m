@@ -44,10 +44,9 @@
     
 }
 
-- (void)setInteractionEnabledForOperation:(ICGTransitionOperation)operation
+- (void)setInteractionEnabled
 {
     
 }
-
 
 @end

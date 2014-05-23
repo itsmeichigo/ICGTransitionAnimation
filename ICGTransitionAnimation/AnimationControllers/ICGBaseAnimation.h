@@ -8,14 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSInteger, ICGTransitionOperation)
-{
-    ICGTransitionOperationPush,
-    ICGTransitionOperationPop,
-    ICGTransitionOperationPresent,
-    ICGTransitionOperationDismiss
-};
-
 @interface ICGBaseAnimation : UIPercentDrivenInteractiveTransition <UIViewControllerAnimatedTransitioning>
 
 /**
@@ -68,7 +60,6 @@ typedef NS_ENUM(NSInteger, ICGTransitionOperation)
 - (void)animateTransition:(id<UIViewControllerContextTransitioning>)transitionContext fromView:(UIView*)fromView toView:(UIView*)toView;
 
 /** Helper method for enabling interactive transition
- @param operation The operation to trigger the
  */
-- (void)setInteractionEnabledForOperation:(ICGTransitionOperation)operation;
+- (void)setInteractionEnabled;
 @end

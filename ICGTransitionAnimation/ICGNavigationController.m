@@ -48,8 +48,7 @@
     self.animationController.toViewController = toVC;
     
     if (self.interactionEnabled){
-        [self.animationController setInteractionEnabledForOperation:ICGTransitionOperationPush];
-        [self.animationController setInteractionEnabledForOperation:ICGTransitionOperationPop];
+        [self.animationController setInteractionEnabled];
     }
     
     if (operation == UINavigationControllerOperationPop){
