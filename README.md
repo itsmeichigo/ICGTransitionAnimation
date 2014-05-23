@@ -17,7 +17,7 @@ Drag and drop the subfolder named `ICGTransitionAnimation` in your project and y
 
  ```Objective-C
 
-	 ICGNavigationController *navigationController = [[ICGNavigationController alloc] initWithRootViewController:viewController]; 
+	 ICGNavigationController *navigationController = [[ICGNavigationController alloc] initWithRootViewController:viewController];
 	 ICGLayerAnimation *layerAnimation = [[ICGLayerAnimation alloc] initWithType:ICGLayerAnimationCover];
 	 navigationController.animationController = layerAnimation;
  ```
@@ -25,7 +25,7 @@ Drag and drop the subfolder named `ICGTransitionAnimation` in your project and y
  2. Custom modal transition
 
  In order to customize the modal transition animation, you need to make sure your presenting view controller subclasses `ICGViewController` and set a custom animation controller to it.
- 
+
  One important note: The transition can only work if you set the modal view controller transitioning delegate to that of the presenting view controller (see the sample code below).
 
  ```Objective-C
@@ -35,7 +35,7 @@ Drag and drop the subfolder named `ICGTransitionAnimation` in your project and y
     ICGSlideAnimation *slideAnimation = [[ICGSlideAnimation alloc] init];
     slideAnimation.type = ICGSlideAnimationFromTop;
     mainController.animationController = slideAnimation;
-    
+
     // View controller to be modally presented - this can subclass any UIViewController subclass.
     ICGModalViewController *modalController = [[ICGModalViewController alloc] initWithNibName:@"ICGModalViewController" bundle:nil];
     modalController.transitioningDelegate = mainController.transitioningDelegate; // this is important for the transition to work
@@ -45,12 +45,12 @@ Drag and drop the subfolder named `ICGTransitionAnimation` in your project and y
  3. Interactive transition
 
  If you are using an animation controller that supports interactive transition, make sure to enable interaction on the object that you set the animation controller to.
- 
+
  ```Objective-C
- 
+
     // If you want the push / pop transition to be interactive, enable interaction on your ICGNavigationController instance
     navigationController.interactionEnabled = YES;
-    
+
     // If you want the modal transition to be interactive, enable interaction on the presenting view controller
     mainViewController.interactionEnabled = YES;
  ```
@@ -58,14 +58,14 @@ Drag and drop the subfolder named `ICGTransitionAnimation` in your project and y
 
 ### Advanced usage
 
-By default, there are serveral available animation controllers provided in the library for basic transition customization. You are however encouraged to create your own, creative transition style by subclassing `ICGBaseAnimation`. The idea is pretty simple - you just need to override the mandatory method `animateTransition: fromView: toView:`. If you wish to add interactive transition too, be sure to override `setInteractionEnabledForOperation:`.
+By default, there are several available animation controllers provided in the library for basic transition customization. You are however encouraged to create your own, creative transition style by subclassing `ICGBaseAnimation`. The idea is pretty simple - you just need to override the mandatory method `animateTransition: fromView: toView:`. If you wish to add interactive transition too, be sure to override `setInteractionEnabled`.
 
 For sample code, check out the implementation of `ICGSlideAnimation` provided in the library, which supports both custom animation and interaction transition.
 
 ## Requirements
 
 ICGTransitionAnimation requires Xcode 5 as it uses UIKit Dynamics and motion effects. The library
-can be added to projects targetting iOS 6 as an enhancement to the app when running in iOS 7. This means the library will not cause crash in iOS 6 but only supports desirable functions if deployed in iOS 7.
+can be added to projects targeting iOS 6 as an enhancement to the app when running in iOS 7. This means the library will not cause crash in iOS 6 but only supports desirable functions if deployed in iOS 7.
 
 ### ARC
 
