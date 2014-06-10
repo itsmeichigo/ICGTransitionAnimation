@@ -219,7 +219,7 @@
 #pragma mark - IBAction methods
 
 - (IBAction)navigationButtonTapped:(id)sender {
-    ICGPushedViewController *viewController = [[ICGPushedViewController alloc] initWithNibName:@"ICGThirdViewController" bundle:nil];
+    ICGPushedViewController *viewController = [[ICGPushedViewController alloc] initWithNibName:@"ICGPushedViewController" bundle:nil];
     
     ICGNavigationController *fancyNavigationController = (ICGNavigationController *) self.navigationController;
     
