@@ -51,8 +51,10 @@
         [self.animationController setInteractionEnabled];
     }
     
-    if (operation == UINavigationControllerOperationPop){
+    if (operation == UINavigationControllerOperationPop) {
         self.animationController.reverse = YES;
+    } else {
+        self.animationController.reverse = NO;
     }
     
     return self.animationController;
