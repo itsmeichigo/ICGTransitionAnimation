@@ -5,6 +5,13 @@ ICGTransitionAnimation is a library to customize transition animation in iOS 7.
 
 ![Demo](https://raw.githubusercontent.com/itsmeichigo/ICGTransitionAnimation/master/Demo.gif)
 
+## Changes
+v 1.01 
+ * Fix wrong animation transition direction.
+ 
+v 1.0
+ * First public release
+
 ## Getting started
 
 #### Using CocoaPods:
