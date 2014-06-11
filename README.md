@@ -28,6 +28,13 @@ ICGTransitionAnimation is a library to customize transition animation in iOS 7.
 	 navigationController.animationController = layerAnimation;
  ```
 
+ If you use storyboard, make sure your navigation controller's custom class is `ICGNavigationController`, just so you can set its animation controller via any of its view controller. For example, you can add this inside `viewDidLoad` method of your root view controller:
+
+ ```Objective-C
+    ICGNavigationController *fancyNavigationController = (ICGNavigationController *)self.navigationController;
+    ICGLayerAnimation *layerAnimation = [[ICGLayerAnimation alloc] initWithType:ICGLayerAnimationCover];
+    fancyNavigationController.animationController = layerAnimation;
+ ```
  2. Custom modal transition
 
  In order to customize the modal transition animation, you need to make sure your presenting view controller subclasses `ICGViewController` and set a custom animation controller to it.
