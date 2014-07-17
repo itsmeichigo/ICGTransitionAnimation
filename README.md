@@ -42,6 +42,8 @@ v 1.0
     ICGLayerAnimation *layerAnimation = [[ICGLayerAnimation alloc] initWithType:ICGLayerAnimationCover];
     fancyNavigationController.animationController = layerAnimation;
  ```
+ You can also take a look at the storyboard demo to find out how the library should be integrated.
+ 
  2. Custom modal transition
 
  In order to customize the modal transition animation, you need to make sure your presenting view controller subclasses `ICGViewController` and set a custom animation controller to it.
