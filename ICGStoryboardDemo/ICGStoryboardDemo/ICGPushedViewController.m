@@ -35,4 +35,21 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    UIViewController *viewController = segue.destinationViewController;
+    ICGViewController *fancyViewController = (ICGViewController *) self;
+    
+    fancyViewController.interactionEnabled = YES;
+    NSString *className = [NSString stringWithFormat:@"ICG%@Animation", @"Layer"];
+    id transitionInstance = [[NSClassFromString(className) alloc] init];
+    fancyViewController.animationController = transitionInstance;
+    fancyViewController.animationController.type = 1;
+    
+    if ([self respondsToSelector:@selector(setTransitioningDelegate:)]){
+        viewController.transitioningDelegate = self.transitioningDelegate;  // this is important for the animation to work
+    }
+    
+}
+
 @end

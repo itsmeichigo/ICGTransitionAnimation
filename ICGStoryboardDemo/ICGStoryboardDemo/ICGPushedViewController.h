@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ICGViewController.h"
 
-@interface ICGPushedViewController : UIViewController
+@interface ICGPushedViewController : ICGViewController
 
 @end
