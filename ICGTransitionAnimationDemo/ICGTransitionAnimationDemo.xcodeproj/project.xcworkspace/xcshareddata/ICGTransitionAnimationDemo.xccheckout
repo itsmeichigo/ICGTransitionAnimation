@@ -10,29 +10,29 @@
 	<string>ICGTransitionAnimationDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>51D8F3063B98F1ABF0F9F2B3C7078A99C3577499</key>
+		<key>C07D29EA-F54C-4A79-83C0-88CA8A3642C6</key>
 		<string>https://github.com/itsmeichigo/ICGTransitionAnimation.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>ICGTransitionAnimationDemo/ICGTransitionAnimationDemo.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>51D8F3063B98F1ABF0F9F2B3C7078A99C3577499</key>
+		<key>C07D29EA-F54C-4A79-83C0-88CA8A3642C6</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/itsmeichigo/ICGTransitionAnimation.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>111</integer>
+	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>51D8F3063B98F1ABF0F9F2B3C7078A99C3577499</string>
+	<string>C07D29EA-F54C-4A79-83C0-88CA8A3642C6</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>51D8F3063B98F1ABF0F9F2B3C7078A99C3577499</string>
+			<string>C07D29EA-F54C-4A79-83C0-88CA8A3642C6</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ICGTransitionAnimation</string>
 		</dict>
