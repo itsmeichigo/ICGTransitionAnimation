@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ICGTransitionAnimation"
-  s.version      = "1.01"
+  s.version      = "1.02"
   s.summary      = "Library to customize transition animation in iOS 7"
 
   s.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, "6.1"
 
-  s.source       = { :git => "https://github.com/itsmeichigo/ICGTransitionAnimation.git", :tag => "1.01" }
+  s.source       = { :git => "https://github.com/itsmeichigo/ICGTransitionAnimation.git", :tag => "1.02" }
 
   s.source_files  = "Source/**/*.{h,m}"
 
