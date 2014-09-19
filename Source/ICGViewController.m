@@ -20,9 +20,6 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        if ([self respondsToSelector:@selector(setTransitioningDelegate:)]){
-            self.transitioningDelegate = self;
-        }
         
     }
     return self;
@@ -41,6 +38,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    if ([self respondsToSelector:@selector(setTransitioningDelegate:)]){
+        self.transitioningDelegate = self;
+    }
 }
 
 #pragma mark - UIViewControllerTransitioningDelegate
