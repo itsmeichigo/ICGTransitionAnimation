@@ -20,7 +20,7 @@ v 1.0
 #### Using CocoaPods:
   Just add the following line in to your pod file:
   
-	pod 'ICGTransitionAnimation', '~> 1.01'
+	pod 'ICGTransitionAnimation', '~> 1.02'
 
 #### Manually add ICGTransitionAnimation as a library:
   Drag and drop the subfolder named `ICGTransitionAnimation` in your project and you are done.
